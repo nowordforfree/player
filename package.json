@@ -1,0 +1,19 @@
+{
+  "name": "player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "author": "nowordforfree@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nowordforfree/player"
+  },
+  "dependencies": {
+    "electron": "^1.4.0",
+    "libvlcjs": "git+https://github.com/nowordforfree/libvlcjs.git"
+  }
+}
