@@ -1,7 +1,7 @@
 {
   "name": "player",
   "version": "1.0.0",
-  "description": "",
+  "description": "Player based on electron and VLC binding to nodejs/electron",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/electron ."
@@ -13,7 +13,16 @@
     "url": "https://github.com/nowordforfree/player"
   },
   "dependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
     "electron": "^1.4.0",
-    "libvlcjs": "git+https://github.com/nowordforfree/libvlcjs.git"
+    "libvlcjs": "git+https://github.com/nowordforfree/libvlcjs.git",
+    "rxjs": "^5.0.0-beta.12",
+    "zone.js": "^0.6.25"
   }
 }
