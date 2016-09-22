@@ -1,4 +1,5 @@
-'use strict';
+export * from './app.module';
+
 const libvlc = require('libvlcjs'),
     player = libvlc.createPlayer();
 
