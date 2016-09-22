@@ -5,7 +5,6 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "noImplicitAny": false,
-        "outDir": "src/js",
         "removeComments": false,
         "sourceMap": false,
         "target": "es5"
