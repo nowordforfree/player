@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Player</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/index.js"></script>
-</head>
-<body>
-    <table id="player">
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'app-body',
+    template: `
+        <table id="player">
         <tbody>
             <tr>
                 <td class="cover">
@@ -27,6 +22,7 @@
                 </td>
             </tr>
         </tbody>
-    </table>
-</body>
-</html>
+    </table>`
+})
+
+export class AppComponent { }
