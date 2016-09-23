@@ -1,0 +1,27 @@
+<div id="player">
+    <div class="row primary">
+        <div class="cover col-xs-3"></div>
+        <div class="main col-xs-9">
+            <div class="buttons">
+                <button (click)="play()" class="btn btn-default">
+                    <i class="glyphicon glyphicon-play"></i>
+                </button>
+                <button (click)="pause()" class="btn btn-default">
+                    <i class="glyphicon glyphicon-pause"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="row secondary">
+        <div class="progress col-xs-12">
+            <div class="progress-bar"
+                 role="progressbar"
+                 aria-valuenow="0"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 style="width: 0%;">
+                0:00
+            </div>
+        </div>
+    </div>
+</div>

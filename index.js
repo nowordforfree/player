@@ -6,8 +6,10 @@ let win;
 function createWindow () {
     win = new BrowserWindow({
         autoHideMenuBar: true,
-        width: 500,
-        height: 600
+        width: 520,
+        height: 600,
+        minWidth: 520,
+        minHeight: 210
     });
 
     win.loadURL(`file://${__dirname}/src/index.html`)
