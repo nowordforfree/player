@@ -26,6 +26,9 @@ body,html {
 #player .row.secondary {
     height: 20px;
 }
+#player .row.secondary .progress {
+    margin-bottom: 0;
+}
 #player .cover {
     border-right: 1px solid #dfdfdf;
     height: 100%;
@@ -38,4 +41,19 @@ body,html {
     border-radius: 18px;
     height: 36px;
     width: 36px;
+}
+#playlist {
+    padding: 0;
+}
+#playlist .controls {
+    background-color: #dfdfdf;
+    bottom: 0;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    position: fixed;
+    width: 100%;
+}
+#playlist .controls .search {
+    float: right;
+    width: 200px;
 }

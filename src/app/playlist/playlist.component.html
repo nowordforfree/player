@@ -1,3 +1,32 @@
-<div class="container">
-    <ul class="tracks"></ul>
+<div class="container" id="playlist">
+    <div class="container tracks">
+        <ul class="tracks"></ul>        
+    </div>
+    <div class="controls">
+        <div class="btn-group" dropdown keyboardNav="true">
+            <button class="btn btn-default" type="button" id="btnAdd" dropdownToggle>
+                <i class="glyphicon glyphicon-plus"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right" dropdownMenu role="menu" aria-labelledby="btnAdd">
+                <li role="menuitem">
+                    <a class="dropdown-item" href="#">Add Files</a>
+                </li>
+                <li role="menuitem">
+                    <a class="dropdown-item" href="#">Add Folders</a>
+                </li>
+                <li role="menuitem">
+                    <a class="dropdown-item" href="#">Add Link(s)</a>
+                </li>
+            </ul>
+        </div>
+        <input type="file" id="inputfile" style="display: none;">
+        <div class="input-group search">
+            <input type="text" class="form-control" placeholder="Search..." />
+            <span class="input-group-btn">
+                <span class="btn">
+                    <i class="glyphicon glyphicon-search"></i>
+                </span>
+            </span>
+        </div>
+    </div>
 </div>
