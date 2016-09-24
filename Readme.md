@@ -1,6 +1,6 @@
 ###This is a  media player based on electron and VLC binding to nodejs/electron
 
-It should support playback of variety audio and video formats, but at playing video is not working yet.
+It should support playback of variety audio and video formats, but video output is not working yet.
 
 Reminder list:  
 [ ] - fix search in playlists (make magnifier icon instead of button)  
